@@ -38,6 +38,7 @@ RUN apt-key update && \
       php-zip \
       php-redis 
 
+RUN apt-get install -y git ant 
 
 RUN mkdir -p /run/php/ \
     mkdir -p /var/log/supervisor
